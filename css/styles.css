@@ -145,13 +145,13 @@ div#container1
 {
     height: 296px;
     background-color: #f1efe3;
-    background: url(../final_work_image/zhonglou.jpg) no-repeat;
+    background: url(./image/zhonglou.jpg) no-repeat;
 }
 
 div#container2
 {
     height: 493px;
-    background: #7f7c74 url(../final_work_image/zhongj-bg.jpg) no-repeat center 0;
+    background: #7f7c74 url(./image/zhongj-bg.jpg) no-repeat center 0;
     border-bottom: 6px solid #b09555;
 }
 
