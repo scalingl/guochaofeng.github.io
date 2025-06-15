@@ -1,0 +1,230 @@
+/* 对body进行整体设计 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; 
+}
+/* 美化头部 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+/* 对导航区进行设计 */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+nav ul li a:visited{
+    color: #ecf0f1;
+}
+
+nav ul li a:active {
+    color: #e74c3c;
+}
+
+/* 设置主体部分 */
+main {
+    padding: 20px;
+}
+/* 设置页脚 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    clear: both;
+}
+/* 美化标题 */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #ddd60b;
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+}
+/* 对标题进行美化 */
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #2980b9;
+    /* 制造竖线的效果 */
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+/* 对段落进行美化 */
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #725d5d;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 表格样式 */
+.contact-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.contact-table th {
+    background-color: #f2f2f2;
+}
+
+/* 表单样式 */
+.contact-form label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    width: 300px;
+    padding: 8px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+
+div#container1
+{
+    height: 296px;
+    background-color: #f1efe3;
+    background: url(../final_work_image/zhonglou.jpg) no-repeat;
+}
+
+div#container2
+{
+    height: 493px;
+    background: #7f7c74 url(../final_work_image/zhongj-bg.jpg) no-repeat center 0;
+    border-bottom: 6px solid #b09555;
+}
+
+div#container1  div#cont1_1
+{
+    width: 656px;
+    height:272px;
+    background-color: #fff;
+    float: left;
+    border-top: 4px solid #85754d;
+    margin-left: 250px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+div#container1  div#cont1_2
+{
+    width: 344px;
+    height:272px;
+    background-color: #e8e0cd;
+    border-top: 4px solid #b89a53;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+div#container2  div#cont2_1
+{
+    width: 312px;
+    height:356px;
+    background-color: #f1efe3;
+    margin-top: 70px;
+    overflow: hidden;
+    float: left;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+div#container2  div#cont2_2
+{
+    width: 314px;
+    height: 356px;
+    float: left;
+    background-color: #f1efe3;
+    margin-top: 70px;
+    margin-left: 110px;
+    /* padding-top: 29px; */
+    padding: 10px;
+}
+
+div#container2  div#cont2_3
+{
+    width: 314px;
+    height: 356px;
+    float: right;
+    background-color: #f1efe3;
+    margin-top: 70px;
+    margin-right: 150px;
+    padding: 10px;
+}
+
+section.zhengshu
+{
+    width: 471px;
+    height: 666px;
+    float:left;
+    padding: 0;
+}
+
+section.jiangli
+{
+    width:888px;
+    height:666px;
+    float:right;
+}
+

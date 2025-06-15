@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系方式</title>
+    <link rel="stylesheet" href="../final_work_css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>我的个人网站</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="introduce.html">个人经历</a></li>
+                <li><a href="habbit.html">兴趣爱好</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-table">
+            <h2>我的联系方式</h2>
+            <!-- 设置表格内的单元格间距 -->
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>联系方式类型</th>
+                    <th>信息</th>
+                </tr>
+                <tr>
+                    <td>邮箱</td>
+                    <td>2567577374@qq.com</td>
+                </tr>
+                <tr>
+                    <td>电话</td>
+                    <td>+86 181-7112-3619</td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td>湖北省武汉市东湖新技术开发区南湖大道182号 环湖公寓</td>
+                </tr>
+                <tr>
+                    <td>微信</td>
+                    <td>18171123619</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="contact-form">
+            <h2>留下你的联系方式</h2>
+            <form action="#" method="post">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">邮箱：</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">电话：</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="message">留言：</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">提交</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 202321130289 郭超峰</p>
+    </footer>
+</body>
+</html>
